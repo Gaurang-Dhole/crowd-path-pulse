@@ -52,6 +52,20 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+        // CrowdPathPulse custom colors
+        brand: {
+          primary: '#7755F8',
+          secondary: '#6A48E0',
+          light: '#9B87F5',
+          dark: '#4832AB',
+          accent: '#FF6B6B',
+        },
+        density: {
+          low: '#4CC38A',
+          medium: '#FFB347',
+          high: '#FF6B6B',
+          critical: '#E03131',
+        },
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
